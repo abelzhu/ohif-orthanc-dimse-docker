@@ -215,15 +215,15 @@
      * option "DicomAlwaysAllowEcho" (resp. "DicomAlwaysAllowStore")
      * is set to false.
      **/
-    //"untrusted" : {
-    //  "AET" : "ORTHANC",
-    //  "Port" : 104,
-    //  "Host" : "127.0.0.1",
-    //  "AllowEcho" : false,
-    //  "AllowFind" : false,
-    //  "AllowMove" : false,
-    //  "AllowStore" : true
-    //}
+    "untrusted" : {
+      "AET" : "ORTHANC",
+      "Port" : 104,
+      "Host" : "122.112.210.201",
+      "AllowEcho" : true,
+      "AllowFind" : false,
+      "AllowMove" : false,
+      "AllowStore" : true
+    }
   },
 
   // Whether to store the DICOM modalities in the Orthanc database
